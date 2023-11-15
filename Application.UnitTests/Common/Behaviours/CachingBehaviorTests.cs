@@ -1,16 +1,16 @@
 ﻿using FakeItEasy;
-using MiniETrade.Application.Common.Abstractions;
-using MiniETrade.Application.Common.Abstractions.Caching;
-using MiniETrade.Application.Common.Abstractions.Logging;
-using MiniETrade.Application.Common.Behaviours;
-using MiniETrade.Infrastructure.Services.Logging.Loggers;
+using Application.Common.Abstractions;
+using Application.Common.Abstractions.Caching;
+using Application.Common.Abstractions.Logging;
+using Application.Common.Behaviours;
+using Infrastructure.Services.Logging.Loggers;
 using Moq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ILoggerFactory = MiniETrade.Application.Common.Abstractions.Logging.ILoggerFactory;
+using ILoggerFactory = Application.Common.Abstractions.Logging.ILoggerFactory;
 using Times = Moq.Times;
 
 namespace Application.UnitTests.Common.Behaviours;

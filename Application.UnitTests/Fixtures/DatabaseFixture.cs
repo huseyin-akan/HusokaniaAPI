@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MiniETrade.Application.Common.Abstractions;
-using MiniETrade.Domain.Entities;
-using MiniETrade.Infrastructure.Services;
-using MiniETrade.Persistence.Contexts;
+using Application.Common.Abstractions;
+using Domain.Entities;
+using Infrastructure.Services;
+using Persistence.Contexts;
 using System;
 using System.Collections.Generic;
 using System.Linq;

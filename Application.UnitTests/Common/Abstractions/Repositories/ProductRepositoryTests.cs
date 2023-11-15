@@ -1,7 +1,7 @@
 ﻿using Application.UnitTests.Fixtures;
-using MiniETrade.Application.Common.Abstractions.Persistence.Repositories.Products;
-using MiniETrade.Domain.Entities;
-using MiniETrade.Persistence.Persistence.Products;
+using Application.Common.Abstractions.Persistence.Repositories.Products;
+using Domain.Entities;
+using Persistence.Persistence.Products;
 using System;
 using System.Collections.Generic;
 using System.Linq;

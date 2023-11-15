@@ -1,6 +1,6 @@
 ﻿using FluentValidation.TestHelper;
-using MiniETrade.Application.Features.AppUsers.Commands.LoginUser;
-using MiniETrade.Domain.Messages;
+using Application.Features.AppUsers.Commands.LoginUser;
+using Domain.Messages;
 using System;
 using System.Collections.Generic;
 using System.Linq;

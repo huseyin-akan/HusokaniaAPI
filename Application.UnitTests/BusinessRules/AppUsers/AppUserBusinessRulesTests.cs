@@ -1,8 +1,8 @@
-﻿using MiniETrade.Application.BusinessRules.AppUsers;
-using MiniETrade.Application.Common.Abstractions.Identity;
-using MiniETrade.Domain.Entities.Identity;
-using MiniETrade.Domain.Exceptions;
-using MiniETrade.Domain.Messages;
+﻿using Application.BusinessRules.AppUsers;
+using Application.Common.Abstractions.Identity;
+using Domain.Entities.Identity;
+using Domain.Exceptions;
+using Domain.Messages;
 using System;
 using System.Collections.Generic;
 using System.Linq;

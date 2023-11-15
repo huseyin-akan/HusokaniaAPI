@@ -27,9 +27,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Core\MiniETrade.Application\MiniETrade.Application.csproj" />
-    <ProjectReference Include="..\Infrastructure\MiniETrade.Infrastructure\MiniETrade.Infrastructure.csproj" />
-    <ProjectReference Include="..\Infrastructure\MiniETrade.Persistence\MiniETrade.Persistence.csproj" />
+    <ProjectReference Include="..\Core\Application\Application.csproj" />
+    <ProjectReference Include="..\Core\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Core\Application\Application.csproj" />
+    <ProjectReference Include="..\Infrastructure\Infrastructure\Infrastructure.csproj" />
+    <ProjectReference Include="..\Infrastructure\Infrastructure\Infrastructure.csproj" />
+    <ProjectReference Include="..\Infrastructure\Persistence\Persistence.csproj" />
+    <ProjectReference Include="..\Infrastructure\Persistence\Persistence.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,7 +1,7 @@
-﻿using MiniETrade.Application.BusinessRules.Products;
-using MiniETrade.Application.Common.Abstractions.Persistence.Repositories.Products;
-using MiniETrade.Domain.Entities;
-using MiniETrade.Domain.Exceptions;
+﻿using Application.BusinessRules.Products;
+using Application.Common.Abstractions.Persistence.Repositories.Products;
+using Domain.Entities;
+using Domain.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;

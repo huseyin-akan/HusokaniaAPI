@@ -1,7 +1,7 @@
 ﻿using FluentValidation.TestHelper;
-using MiniETrade.Application.Features.AppUsers.Commands.CreateUser;
-using MiniETrade.Domain.Messages;
-using MiniETrade.Infrastructure.Helpers.TestHelpers;
+using Application.Features.AppUsers.Commands.CreateUser;
+using Domain.Messages;
+using Infrastructure.Helpers.TestHelpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;

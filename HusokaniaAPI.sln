@@ -5,22 +5,22 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2DC75893-0632-4DBD-B6DD-904E4F87C6B8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniETrade.Domain", "Core\MiniETrade.Domain\MiniETrade.Domain.csproj", "{A2718860-6F15-4902-8E80-713C3CC73F4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Core\Domain\Domain.csproj", "{A2718860-6F15-4902-8E80-713C3CC73F4D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniETrade.Application", "Core\MiniETrade.Application\MiniETrade.Application.csproj", "{044E767F-FC61-49A5-B12A-83B224A132E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Core\Application\Application.csproj", "{044E767F-FC61-49A5-B12A-83B224A132E6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C5126C13-D37A-4B76-B5D1-D4EA00A60769}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniETrade.Infrastructure", "Infrastructure\MiniETrade.Infrastructure\MiniETrade.Infrastructure.csproj", "{E4E7C18D-B5DE-44CD-9C08-C239A93FF84A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure\Infrastructure.csproj", "{E4E7C18D-B5DE-44CD-9C08-C239A93FF84A}"
 	ProjectSection(ProjectDependencies) = postProject
 		{044E767F-FC61-49A5-B12A-83B224A132E6} = {044E767F-FC61-49A5-B12A-83B224A132E6}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniETrade.Persistence", "Infrastructure\MiniETrade.Persistence\MiniETrade.Persistence.csproj", "{B1EF6F2B-AA2E-4E79-AAC2-EDFCFC49D1AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Infrastructure\Persistence\Persistence.csproj", "{B1EF6F2B-AA2E-4E79-AAC2-EDFCFC49D1AD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{104CAFE3-2D11-4095-ABFE-F0298E3F7C34}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Husokania.API", "Presentation\MiniETrade.API\Husokania.API.csproj", "{782EEFBB-08A1-4B03-A088-87D136EC1BED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Husokania.API", "Presentation\Husokania.API\Husokania.API.csproj", "{782EEFBB-08A1-4B03-A088-87D136EC1BED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MQConsumer", "MQConsumer", "{F2003AC8-53F6-46FE-A138-768DB139A408}"
 EndProject

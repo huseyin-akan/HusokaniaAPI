@@ -1,5 +1,5 @@
 ﻿using MassTransit;
-using MiniETrade.Domain.Entities.Events;
+using Domain.Entities.Events;
 using MQConsumerService.WorkerServices;
 using Newtonsoft.Json;
 using System;

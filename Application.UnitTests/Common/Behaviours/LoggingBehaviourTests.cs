@@ -1,6 +1,6 @@
 ﻿
-using MiniETrade.Application.Common.Abstractions.Logging;
-using MiniETrade.Application.Features.Products.Commands;
+using Application.Common.Abstractions.Logging;
+using Application.Features.Products.Commands;
 using System;
 using System.Collections.Generic;
 using System.Linq;
