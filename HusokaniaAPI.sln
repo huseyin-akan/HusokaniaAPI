@@ -26,9 +26,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MQConsumer", "MQConsumer", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQConsumerService", "MQConsumerService\MQConsumerService.csproj", "{447E3642-C3BB-4CA0-AD3F-39B0BE8D0F9D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{48FD6371-225E-46C2-B9FF-F7CC5329D6B2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{48FD6371-225E-46C2-B9FF-F7CC5329D6B2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.UnitTests", "Application.UnitTests\Application.UnitTests.csproj", "{7B7B52D2-E160-4777-BA06-BC66585E8436}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.UnitTests", "Tests\Application.UnitTests\Application.UnitTests.csproj", "{7B7B52D2-E160-4777-BA06-BC66585E8436}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
